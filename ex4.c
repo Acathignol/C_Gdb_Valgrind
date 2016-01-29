@@ -23,6 +23,7 @@ void affiche_tab(int tab[][4])
 	fflush(stdout);
 }
 
+
 void affiche_tab2(int *tab[])
 {
 	int i, j;
@@ -36,11 +37,12 @@ void affiche_tab2(int *tab[])
 	fflush(stdout);
 }
 
+
 int main()
 {
 	affiche_tab(tab);
 	affiche_tab2(tab2);
-	affiche_tab2(((int**) tab));
-	affiche_tab((int(*)[4])tab2);
+	//affiche_tab2((int(**)) tab);
+	//affiche_tab((int(*)[4])tab2);
 	return 0;
 }

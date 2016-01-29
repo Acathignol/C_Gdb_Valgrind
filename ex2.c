@@ -12,7 +12,7 @@ int main()
 	printf("VAL=%d\n", VAL);
 	printf("ZERO=%d\n", ZERO);
 	zero = ZERO;		/* 0 */
-	la_tete_a_toto = zero;	/* 0 */
+	la_tete_a_toto = zero*(ZERO);	/* 0 */
 	i = VAL + VAL;		/* 84 */
 	j = la_tete_a_toto + i;	/* 84 */
 	k = zero + la_tete_a_toto + j;	/* 84 */

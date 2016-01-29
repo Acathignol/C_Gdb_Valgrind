@@ -39,7 +39,8 @@ int main (void)
     La ligne suivante va faire un "Segmentation fault".
     Le deboggeur va s'arreter sur cette ligne.
     */
-        *ptr = 0;
+        
+        //*ptr = 0; 
  /*
     Le bug etait facile a trouver. 
     Vous pouvez le corriger en mettant en commentaire la ligne impliquée. 
