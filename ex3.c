@@ -6,7 +6,9 @@
 int main()
 {
 	unsigned int i;
-	for (i = 12; i >= 0; --i) {
+	for (i = 12; i >= 0; i--) {
 		printf("i = %d\n", i);
+    if (i==0) break;
 	}
+  
 }
